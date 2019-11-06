@@ -1,9 +1,10 @@
 export default{
-    template:
-    <div>
+    template:`
+     <div>
     <h1>Din Kontakt Informasjon</h1>
     
-    </div>,
+    </div>`
+   ,
     
     
     };

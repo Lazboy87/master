@@ -1,7 +1,8 @@
-import HomePage from "/pages/homePage.page";
-import timePage from "/pages/time.page";
-import treatmentPage from "/pages/treatment.page";
-import datePage from "/pages/date.page";
+import HomePage from "/HomePage.page.js";
+import timePage from "/time.page.js";
+import treatmentPage from "/treatment.page.js";
+import datePage from "/date.page.js";
+import contactInfo from "/contactinfo.page.js";
 
 
 

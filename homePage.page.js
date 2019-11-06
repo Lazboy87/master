@@ -1,14 +1,23 @@
 
 
 const HomePage ={
-    template:
+    template: `
+    
     <div>
-    <h1>Velkommen</h1>
+    <h1>{{title}}</h1>
 
-    <router-link to="/treatment">Gå til Bestilling </router-link><br></br>
-    
-    </div>,
+    <router-link to="/treatment">Gå til Bestilling </router-link>
     
     
-    };
+    </div>
+    `,
+
+
+data(){ 
+    return  {
+            title:"Velkommen til min side"
+            }
+    }
+    
+};
     export default HomePage;
