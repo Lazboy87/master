@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.mainContainer{
+    margin: auto;
+    width: 50%;
+    transform: scale(1.5);
+    transform-origin: 50% 0%;
+}
+.routerContainer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px;
+    background-color: #c92440;
+    margin-top: 15%; 
+    text-decoration: none;
+    filter: drop-shadow(2px 2px 2px);
+}
+.elLink{
+    text-decoration: none;
+    color: #ffffff; 
+}
+.hTag{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.container{
+
+}
