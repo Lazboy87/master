@@ -32,7 +32,25 @@ import contactInfo from "/contactinfo.page.js";
 
                 {
 
-                    path: '/date',
+                    path: '/datefyso',
+                    component: datePage
+
+                },
+                {
+
+                    path: '/dateoso',
+                    component: datePage
+
+                },
+                {
+
+                    path: '/datekost',
+                    component: datePage
+
+                },
+                {
+
+                    path: '/dateaku',
                     component: datePage
 
                 },
