@@ -1,0 +1,47 @@
+
+.body{font-family: Graphik-Medium,"PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;} 
+
+#pageimg{
+    width: 50%;
+    align-self: auto;
+}
+
+#logginntxtH1{
+    margin:0;
+    text-align: center;
+ }
+#logginntxtH2{
+    margin:0;
+    text-align: center;
+    padding-top:10% ;
+}
+
+.loginform,.newuserform {
+text-align: center;
+padding-top: 10%;
+}
+
+.loginformfield,.newuserfield {
+    text-align: center;
+    align-self: auto;
+    margin: 3%;
+    width: 75%;
+    height: 30px;
+    border-color: red;
+    border-radius: 5%;
+    font-size: 100%;
+    scale:1;
+}
+
+#subloginn,#newuserbtn{
+    background-color: #A42751;
+    color:#fff ;
+    font-size: 100%;
+}
+
+#register,#abort{
+        background-color: #A42751;
+        color:#fff ;
+        font-size: 100%;
+}
+

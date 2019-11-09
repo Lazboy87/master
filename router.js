@@ -1,8 +1,9 @@
-import HomePage from "/HomePage.page.js";
+import startPage from "/startPage.page.js";
 import timePage from "/time.page.js";
 import treatmentPage from "/treatment.page.js";
 import datePage from "/date.page.js";
 import contactInfo from "/contactinfo.page.js";
+import logginnPage from "/logginn.page.js";
 
 
 
@@ -13,10 +14,15 @@ import contactInfo from "/contactinfo.page.js";
         
      routes:[
 
-
+        
                 {
                     path: '/',
-                    component: HomePage
+                    component: logginnPage
+
+                },
+                {
+                    path: '/startpage',
+                    component: startPage
 
                 },
                 {
