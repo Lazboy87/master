@@ -4,9 +4,13 @@ body{
 }
 .mainContainer{
     margin: auto;
-    width: 50%;
-    transform: scale(1.5);
-    transform-origin: 50% 0%;
+    width: 60%;
+    max-width: 100%;
+    max-height: 100%;
+    align-self: auto;
+    
+    /*transform: scale(1.5); 
+    transform-origin: 10% 0%;*/
 }
 .routerContainer{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -26,7 +30,33 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 800;
     text-align: center;
+    margin-top: 10%;
 }
-.container{
-
+.Images{
+    position: relative;
+    bottom: 0px;
+    left: 25px;
+    width: 10%;
+    height: 10%;
+}
+#img1{
+    left: 54px;
+}
+#img2{
+    left: 62px;
+}
+#img3{
+    left: 31px;
+}
+.mainLogo{
+    width: 100%;
+    margin: 5%;
+}
+.testPopup{
+    background-color: #2a3439;
+    border-radius: 10px;
+    text-align: center;
+}
+p{
+    color: white; 
 }
