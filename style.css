@@ -17,10 +17,14 @@ body{
     font-weight: 800;
     text-align: center;
     padding: 10px;
-    background-color: #c92440;
+    background-color: #A42751;
     margin-top: 15%; 
     text-decoration: none;
     filter: drop-shadow(2px 2px 2px);
+    z-index: 0;
+}
+.routerContainer:hover{
+    background-color: #75051B;
 }
 .elLink{
     text-decoration: none;
@@ -56,7 +60,28 @@ body{
     background-color: #2a3439;
     border-radius: 10px;
     text-align: center;
+    z-index: 100;
+    position: absolute;
+    left: 2px;
 }
 p{
     color: white; 
 }
+.exit{
+    width: 10px;
+    height: 10px;
+    background-color: aliceblue; 
+}
+#Popup1{
+    top: 200px;
+}
+#Popup2{
+    top: 280px; 
+}
+#Popup3{
+    top: 380px;
+}
+#Popup4{
+    top: 450px;
+}
+
