@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Graphik-Medium,"PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.mainContainer{
+    width: 320px;
+    height: 568px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    align-self: auto;
+ 
+    
+   
+    
+}
+
+
+.routerContainer{
+    
+    font-size: 100%;
+    width: 75%;
+    font-weight: 600;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    background-color: #A42751;
+    margin-top: 10%;
+    text-align: center;
+    align-self: auto; 
+    text-decoration: none;
+    filter: drop-shadow(2px 2px 2px);
+    z-index: 0;
+}
+.routerContainer:hover{
+    background-color: #75051B;
+}
+.elLink{
+    text-decoration: none;
+    color: #ffffff; 
+}
+.hTag{
+    
+    font-weight: 800;
+    text-align: center;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Images{
+ position: fixed;
+    top:1px;
+    right: 5px;
+    width: 35px;
+    
+}
+
+
+.mainLogo{
+    width: 50%;
+    margin: 5%;
+}
+.testPopup{
+    background-color: #2a3439;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    left: 2px;
+}
+p{
+    color: white; 
+}
+.exit{
+    width: 10px;
+    height: 10px;
+    background-color: aliceblue; 
+}
+#Popup1{
+    top: 200px;
+}
+#Popup2{
+    top: 280px; 
+}
+#Popup3{
+    top: 380px;
+}
+#Popup4{
+    top: 450px;
+}

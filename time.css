@@ -1,0 +1,30 @@
+#pageimg{
+    width: 50%;
+    align-self: auto;
+}
+
+.timetable {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.time {
+    text-align: center;
+    margin: 1%;
+    width: 25%;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    height: 30px;
+    
+}
+
+div.time:hover {
+    background-color: #464646;
+}
+
+p {
+    margin: 6px;
+}

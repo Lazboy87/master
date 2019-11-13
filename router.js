@@ -38,25 +38,7 @@ import logginnPage from "/logginn.page.js";
 
                 {
 
-                    path: '/datefyso',
-                    component: datePage
-
-                },
-                {
-
-                    path: '/dateoso',
-                    component: datePage
-
-                },
-                {
-
-                    path: '/datekost',
-                    component: datePage
-
-                },
-                {
-
-                    path: '/dateaku',
+                    path: '/date',
                     component: datePage
 
                 },
