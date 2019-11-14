@@ -4,6 +4,8 @@ import treatmentPage from "/treatment.page.js";
 import datePage from "/date.page.js";
 import contactInfo from "/contactinfo.page.js";
 import logginnPage from "/logginn.page.js";
+import summary from "/summary.page.js";
+import profile from "/profile.page.js";
 
 
 
@@ -67,8 +69,17 @@ import logginnPage from "/logginn.page.js";
                     
                 },
 
+                {
+                    path: '/summary',
+                    component: summary
+                },
 
-
+                {
+                    path: '/profile',
+                    component: profile
+                },
+               
+                
             ]
     
 });

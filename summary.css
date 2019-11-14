@@ -1,0 +1,33 @@
+
+#container {
+    margin: auto;
+    width: 320px;
+    height: 568px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container p {
+font-size: 14px;
+}
+
+button{
+    background-color: #A42751;
+    color: white;
+    height: 30px;
+}
+
+button:hover {
+    width: 90px;
+    height: 35px;
+}
+
+#pageimg img {
+    width: 50%;
+    align-self: auto;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+}
+

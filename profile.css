@@ -1,0 +1,15 @@
+#container {
+    margin: auto;
+    width: 320px;
+    height: 568px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container p {
+    font-size: 14px;
+    }
+
+#pageimg img {
+    width: 50%;
+    align-self: auto;
+}
