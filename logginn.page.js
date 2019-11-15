@@ -3,7 +3,7 @@
 const logginnPage ={
     template: `
     
-    <div id = "container">
+    <div id = "container" >
     <link rel="stylesheet" href="logginn.css">
    
     <img id="logo" src="/logo.png">
@@ -14,14 +14,17 @@ const logginnPage ={
     
    
     
-        <form class="loginform" v-show="loginformShow">
-        <input class="loginformfield" id="userloginn" type="text" v-model="usernameinp" placeholder="Brukernavn" required><br>
+        <form  class="loginform" v-show="loginformShow" v-for="user in users" >
+        <div >
+        <input class="loginformfield" type="text" v-model="usernameinp" placeholder="Brukernavn" required><br>
         <input class="loginformfield" id="passloginn" type="password" v-model="passwordinp" placeholder="Passord" required><br>
-        <input @click="loginn" class="loginformfield" id="subloginn" type="submit" value="Loginn">
+       
+        <input @click="loginn(user)" class="loginformfield" id="subloginn" type="submit" value="Loginn">
         <br>
         <br>
         <br>
         <button @click="makenewuser" class="loginformfield" id="newuserbtn">Lag Ny Bruker</button>
+        </div>
         </form>
 
     <form class="newuserform" v-show="newuserformShow"  >
@@ -62,15 +65,15 @@ data(){
             
             usernameinp:"",
             passwordinp:"",
-            
+         
 
-            Users: {specs:[
+            users: [
                 {firstname:"Lasse",
             lastname:"Hovden",
             phone:"9000000",
             email:"lasse@lasse.com",
             Cusername:"lasse",
-            Cpassword:"lasse"}]},
+            Cpassword:"lasse"}],
            
             firstname:"",
             lastname:"",
@@ -95,7 +98,7 @@ data(){
                },
 
                clickregister: function(){
-                this.Users.specs.push(
+                this.users.push(
                     {name:this.firstname,
                     lastname:this.lastname,
                     phone:this.phone,
@@ -103,40 +106,33 @@ data(){
                     Cusername:this.Cusername,
                     Cpassword:this.Cpassword
                     });  
-                    console.log(this.Users);
+                    console.log(this.users);
                     this.loginformShow=true;
                 this.newuserformShow=false;
                 },
-                loginn:function(){
-                    const users = this.Users;
+                loginn:function(user){
+                    const usernamechk= user.Cusername;
                     const usernamed = this.usernameinp;
-                    const location = this.$router.replace({ path: "/treatment" });
-                  
-                    
-                    var verifyUSNPSW=[]; 
-                    for (let i = 0; i <users.specs.length; i++) {
-                        verifyUSNPSW[i]= { id: i, name: i};
-
-                      
-                        
-                        if(this.usernamered==users.specs.Cusername&&this.usernamered==users.specs.Cpassword){
-                            location;
+                    const passwordchk= user.Cpassword;
+                    const passwordis=this.passwordinp;
+                    if(usernamed==usernamechk&&passwordis==passwordchk){
+                             this.$router.replace({ path: "/startpage" });
+                             
                            
                          
                         }else{
                             alert("passord eller brukernavn er feil");
                         };
                         
-                    }
+                    },
                    
                        
                         
-                       },
+                       
 
             }
     
 
     };
     
-
     export default logginnPage;

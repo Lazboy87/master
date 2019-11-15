@@ -4,7 +4,6 @@ import treatmentPage from "/treatment.page.js";
 import datePage from "/date.page.js";
 import contactInfo from "/contactinfo.page.js";
 import logginnPage from "/logginn.page.js";
-import mypage from "/myPage.page.js"
 
 
 
@@ -49,11 +48,6 @@ import mypage from "/myPage.page.js"
                     component: contactInfo
                     
                 },
-                {
-                    path: '/myPage',
-                    component: mypage
-                    
-                }
 
 
 

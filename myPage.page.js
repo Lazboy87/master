@@ -1,17 +1,12 @@
 
-    
+
 const startPage ={
-   
     template: `
     
     <div id = "container">
     
     <link rel="stylesheet" href="startPage.css">
     <img id="logo" src="/logo.png">
-    <div id=iddiv>
-    <img id="idimg" src="Images/Id.png">
-     Bruker
-    </div>
     
     <h1 id="logginntxtH1">Studentklinikken</h1>
     <h2 id="logginntxtH2">Hvor ønsker du å gå:</h2>
@@ -23,20 +18,17 @@ const startPage ={
    
     </div>
     `,
-    
-   
+
+
 data(){ 
- 
-
     return  {
-           userarray: Users,
-
+        
             }
     },
     methods: {
-        linkmypage:function(){locationmypage:this.$router.replace({ path: "/myPage" })},
+        linkmypage:function(){locationmypage:this.$router.replace({ path: "/mypage" })},
         linkorder:function(){locationorder:this.$router.replace({ path: "/treatment" })}
-        
+
     }
     
 };
